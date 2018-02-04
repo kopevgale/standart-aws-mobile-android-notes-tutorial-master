@@ -1,0 +1,56 @@
+{
+  "UserAgent": "MobileHub/1.0",
+  "Version": "1.0",
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-east-2:a0da11c5-46c3-4e76-8c42-ebab4d90bf3e",
+        "Region": "us-east-2"
+      }
+    }
+  },
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CognitoUserPool": {
+    "Default": {
+      "PoolId": "us-east-2_C3yyTSV6k",
+      "AppClientId": "50loeb3j0mehkggn9agssj3f3o",
+      "AppClientSecret": "1icnfe0kme5pjqqff0te42s2frtvniomq5sgc7uuv4ieirt046ng",
+      "Region": "us-east-2"
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "badncar-userfiles-mobilehub-780006875",
+      "Region": "us-east-2"
+    }
+  },
+  "Cognito": {
+    "Default": {
+      "Region": "us-east-2"
+    }
+  },
+  "DynamoDBObjectMapper": {
+    "Default": {
+      "Region": "us-east-2"
+    }
+  },
+  "PinpointAnalytics": {
+    "Default": {
+      "AppId": "2b63b356324b4cb591d0b6125e8e5a89",
+      "Region": "us-east-1"
+    }
+  },
+  "PinpointTargeting": {
+    "Default": {
+      "Region": "us-east-1"
+    }
+  },
+  "UserFileManager": {
+    "Default": {
+      "Bucket": "badncar-userfiles-mobilehub-780006875",
+      "Region": "us-east-2"
+    }
+  }
+}
